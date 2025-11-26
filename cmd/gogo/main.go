@@ -1,9 +1,9 @@
 package main
 
 import (
-    "github.com/ryderdain/gadgets/cmd/gogo/cmds"
+    "github.com/ryderdain/gadgets/cmd/gogo/cmds/hello"
 )
 
 func main() {
-	cmds.Hello()
+	hello.Hello()
 }

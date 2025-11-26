@@ -1,13 +1,13 @@
-package main
+package hello
 
 import (
 	"fmt"
 	"rsc.io/quote/v4"
-	"github.com/ryderdain/gadgets/pkg/greeting"
+	"github.com/ryderdain/gadgets/pkg/greetings"
 )
 
-func main() {
-	message := gadgets.Hello("Moogle")
+func Hello() {
+	message := greetings.Hello("Moogle")
 	fmt.Println(message)
 	fmt.Println(quote.Go())
 }
