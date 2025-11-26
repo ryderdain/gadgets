@@ -1,4 +1,3 @@
-module github.com/ryderdain/gadgets/hello
-module github.com/ryderdain/gadgets/greetings
+module github.com/ryderdain/gadgets
 
 go 1.25.4
