@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"rsc.io/quote/v4"
-	"github.com/ryderdain/gadgets"
+	"rsc.io/quote"
+	"github.com/ryderdain/gadgets/greetings"
 )
 
 func main() {
