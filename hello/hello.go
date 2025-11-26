@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
-import "rsc.io/quote/v4"
+import (
+	"fmt"
+	"rsc.io/quote/v4"
+	"github.com/ryderdain/gadgets"
+)
 
 func main() {
-    fmt.Println("Hello, kind stranger. Here's a quote for you:\n")
-    fmt.Println(quote.Go())
+	message := gadgets.greetings.Hello("Moogle")
+	fmt.Println(message)
+	fmt.Println(quote.Go())
 }
