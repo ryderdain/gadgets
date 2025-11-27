@@ -1,7 +1,7 @@
 package main
 
 import (
-    "github.com/ryderdain/gadgets/cmd/gogo/cmds/hello"
+    "github.com/ryderdain/gadgets/hello"
 )
 
 func main() {
